@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dFS4pVcMIdTKe43io/drrm1hx8ff8g0mwdPg6/LW9RJlw6RMT/M8EK3YQoU7ASdzeNsdTMUHvzvGMf0CXpyU3A==",
+  "dgSpecHash": "fb6G4iMHHdbNg+S0m9xZgX7mSQbJjhi4agUiljCSu7y2gu5ApK0bcD155MSIb+IQi6U88UDle3xyk21xz2O4dg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\C#\\WebSites\\elson\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -34,8 +34,7 @@
     "C:\\Users\\Yuriy\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Yuriy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
     "C:\\Users\\Yuriy\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\Yuriy\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
-    "C:\\Users\\Yuriy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\Yuriy\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
