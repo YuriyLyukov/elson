@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6gRSkx9aLjv7E6EGYlCphRjNTPPcXElQzBIkkGuaC7SF0geZ6l6bGeTDmOctbLLCEs6pXkhQZBWBh2vZBjV0Zw==",
+  "dgSpecHash": "SWoAdWWP9duKZVuzy3QpOy8KOPCeAOsZsqbgiQtZKRAg24yy5E/UhnwGE6AMiLgSYRVpYbjggCzYw2yEMFpD8Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\C#\\WebSites\\elson\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Yuriy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
