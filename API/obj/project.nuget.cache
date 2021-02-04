@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zmKsDxE9rmYl/mrySWBpOGuGt2kyXzBbuZjNK6LXyiAXzMdrSKw9UobcQ4jJd3J3X5WeK5GxVgFrCF1gI3YCBw==",
+  "dgSpecHash": "xSzx94E4lfZusubSre+it1F9gVSZ2SK+c4IdaKR67/44+lKh5OnILm8udiS7sykPHAC1DYzVFv+mf6bG82imDw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\C#\\WebSites\\elson\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -44,9 +44,7 @@
     "C:\\Users\\Yuriy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
     "C:\\Users\\Yuriy\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Yuriy\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
-    "C:\\Users\\Yuriy\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
-    "C:\\Users\\Yuriy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Yuriy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\Yuriy\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
