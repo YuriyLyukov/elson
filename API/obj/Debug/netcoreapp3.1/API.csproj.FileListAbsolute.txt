@@ -60,4 +60,6 @@ D:\Projects\C#\WebSites\elson\API\bin\Debug\netcoreapp3.1\Core.dll
 D:\Projects\C#\WebSites\elson\API\bin\Debug\netcoreapp3.1\Infrastructure.dll
 D:\Projects\C#\WebSites\elson\API\bin\Debug\netcoreapp3.1\Infrastructure.pdb
 D:\Projects\C#\WebSites\elson\API\bin\Debug\netcoreapp3.1\Core.pdb
-D:\Projects\C#\WebSites\elson\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+D:\Projects\C#\WebSites\elson\API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Projects\C#\WebSites\elson\API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Projects\C#\WebSites\elson\API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
