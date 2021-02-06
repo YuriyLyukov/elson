@@ -8,7 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ngcc"
+    "postinstall": "ngcc",
+    "postcss:build": "postcss src/tailwind.pcss -o src/css/tailwind.css",
+    "prestart": "npm run postcss:build",
+    "prebuild": "npm run postcss:build -- --env=production"
   },
   "private": true,
   "dependencies": {
@@ -23,8 +26,8 @@
     "@schematics/angular": "^9.1.0",
     "bootstrap": "4.1.1",
     "font-awesome": "^4.7.0",
-    "ngx-bootstrap": "^6.2.0",
     "rxjs": "~6.6.0",
+    "tailwindcss": "^2.0.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
@@ -42,6 +45,8 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
