@@ -8,3 +8,10 @@
 /Infrastructure/bin/
 /Infrastructure/obj/
 /API/elson.db
+API/bin/
+API/obj/
+Core/bin/
+Core/obj/
+Infrastructure/bin/
+Infrastructure/obj/
+API/elson.db
