@@ -1,0 +1,11 @@
+<div class="container">
+  <button (click)="get500Error()">Test 500</button>
+  <button (click)="get404Error()">Test 404</button>
+  <button (click)="get400Error()">Test 400</button>
+  <button (click)="get400ValidationError()">Test 400 valid</button>
+  <div class="row-auto mt-5" *ngIf="validationErrors">
+    <ul class="text-2xl">
+      <li  *ngFor="let error of validationErrors">{{error}}</li>
+    </ul>
+  </div>
+</div>
