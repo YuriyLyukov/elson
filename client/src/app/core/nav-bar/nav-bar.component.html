@@ -1,20 +1,20 @@
 <header class="text-gray-700 bg-white border-t border-b body-font">
   <div class="container flex flex-col flex-wrap mx-auto md:items-center md:flex-row ">
     <a class="flex items-center w-20 mb-4 font-medium text-gray-900 title-font md:mb-0">
-      <img src="../../../assets/images/logo.png" alt="">
+      <img [routerLink]="['/']" class="logo" src="../../../assets/images/logo.png" alt="">
     </a>
-    <a href="#" class="mr-5 text-3xl font-semibold text-gray-600">Elson</a>
+    <a [routerLink]="['/']" class="mr-5 text-3xl font-semibold text-gray-600">Elson</a>
     <nav class="flex flex-wrap items-center justify-center text-base">
-      <a href="#" class="mr-5 text-xl font-semibold text-gray-600 lg:ml-24 hover:text-gray-800">Home</a>
-      <a href="#" class="mr-5 text-xl font-semibold text-gray-600 hover:text-gray-800">Shop</a>
-      <a href="#" class="mr-5 text-xl font-semibold text-gray-600 hover:text-gray-800">Contact</a>
+      <a [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="mr-5 text-xl font-semibold text-gray-600 lg:ml-24 hover:text-gray-800">Home</a>
+      <a routerLink="/shop" routerLinkActive="active" class="mr-5 text-xl font-semibold text-gray-600 hover:text-gray-800">Shop</a>
+      <a [routerLink]="[]" class="mr-5 text-xl font-semibold text-gray-600 hover:text-gray-800">Contact</a>
     </nav>
 
-    <div class="flex ml-auto align-items-center">
-      <a class="position-relative">
-        <i class="fa-shopping-cart fa fa-3x mr-5"></i>
-        <div class="cart-no">3</div>
-      </a>
+    <div class="ml-auto align-items-center">
+      <button class='relative bg-blue-600 text-white  rounded-full font-bold overflow-visible mr-2'>
+        <i class="fa-shopping-cart fa fa-2x m-3"></i>
+        <div class="absolute top-3 right-3 -mt-4 -mr-4 px-2 bg-red-500 rounded-full">1</div>
+      </button>
       <button
         class="text-lg inline-flex px-8 py-3 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">
         Login

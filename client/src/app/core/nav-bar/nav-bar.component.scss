@@ -4,8 +4,23 @@
   min-width: 25px;
   border-radius: 50%;
   font-size:1em;
-  background: aqua;
+  background: #2563EB;
+  color: white;
   text-align: center;
-  top: 30px;
-  right: 470px;
+  top: 10px;
+  right: 530px;
+}
+
+a {
+  text-decoration: none;
+
+  &.active {
+    color: #2563EB;
+  }
+}
+.logo{
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
 }
