@@ -24,7 +24,6 @@
     "@angular/platform-browser-dynamic": "~11.1.2",
     "@angular/router": "~11.1.2",
     "@schematics/angular": "^9.1.0",
-    "bootstrap": "4.1.1",
     "font-awesome": "^4.7.0",
     "rxjs": "~6.6.0",
     "tailwindcss": "^2.0.2",
