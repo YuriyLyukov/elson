@@ -12,9 +12,9 @@
     </nav>
 
     <div class="ml-auto align-items-center">
-      <button class='relative bg-blue-600 text-white  rounded-full font-bold overflow-visible mr-2'>
+      <button routerLink="/basket" class='relative bg-blue-600 text-white  rounded-full font-bold overflow-visible mr-2'>
         <i class="fa-shopping-cart fa fa-2x m-3"></i>
-        <div class="absolute top-3 right-3 -mt-4 -mr-4 px-2 bg-red-500 rounded-full">1</div>
+        <div *ngIf="(basket$ | async) as basket" class="absolute top-3 right-3 -mt-4 -mr-4 px-2 bg-red-500 rounded-full">{{basket.items.length}}</div>
       </button>
       <button
         class="text-lg inline-flex px-8 py-3 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">
