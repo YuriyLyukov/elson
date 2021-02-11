@@ -1,0 +1,6 @@
+Docker Redis
+docker exec -it container-redis sh
+redis-cli
+ping - to test if it is working
+KEYS '*' to all keys
+GET <keyvalue>
