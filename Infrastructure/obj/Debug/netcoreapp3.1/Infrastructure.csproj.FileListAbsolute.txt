@@ -10,3 +10,15 @@ D:\Projects\C#\WebSites\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastruct
 D:\Projects\C#\WebSites\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 D:\Projects\C#\WebSites\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 D:\Projects\C#\WebSites\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\oleks\Desktop\elson\elson\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

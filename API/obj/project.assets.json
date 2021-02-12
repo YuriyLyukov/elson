@@ -1458,19 +1458,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yuriy\\.nuget\\packages\\": {}
+    "C:\\Users\\oleks\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\C#\\WebSites\\elson\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\oleks\\Desktop\\elson\\elson\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Projects\\C#\\WebSites\\elson\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Yuriy\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\C#\\WebSites\\elson\\API\\obj\\",
+      "projectPath": "C:\\Users\\oleks\\Desktop\\elson\\elson\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\oleks\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oleks\\Desktop\\elson\\elson\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yuriy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\oleks\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1480,10 +1480,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Projects\\C#\\WebSites\\elson\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\C#\\WebSites\\elson\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\oleks\\Desktop\\elson\\elson\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\oleks\\Desktop\\elson\\elson\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1496,7 +1495,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -1533,16 +1531,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.10, 3.1.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1551,7 +1539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

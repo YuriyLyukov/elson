@@ -7,3 +7,12 @@ D:\Projects\C#\WebSites\elson\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
 D:\Projects\C#\WebSites\elson\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 D:\Projects\C#\WebSites\elson\Core\obj\Debug\netcoreapp3.1\Core.dll
 D:\Projects\C#\WebSites\elson\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\oleks\Desktop\elson\elson\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\oleks\Desktop\elson\elson\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\oleks\Desktop\elson\elson\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\oleks\Desktop\elson\elson\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\oleks\Desktop\elson\elson\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\oleks\Desktop\elson\elson\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\oleks\Desktop\elson\elson\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\oleks\Desktop\elson\elson\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\oleks\Desktop\elson\elson\Core\obj\Debug\netcoreapp3.1\Core.pdb

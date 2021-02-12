@@ -1,0 +1,29 @@
+.home-text{
+  font-family: 'KontoraBlack', Fallback, sans-serif !important;
+}
+
+
+.button_home{
+  background: rgb(94,229,255);
+  background: linear-gradient(153deg, rgba(94,229,255,1) 0%, rgba(111,152,233,1) 78%);
+}
+h1{
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent;
+
+  background: linear-gradient(to right, #f75d81, #ed5ca3, #d664c3, #af72df, #7380f3);
+
+
+}
+
+.reimagined{
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(121deg, rgba(63,46,192,1) 0%, rgba(41,165,255,1) 35%, rgba(59,202,244,1) 67%, rgba(57,201,245,1) 85%, rgba(135,239,214,1) 100%);
+}
+
+.banner{
+  background-image: url("./../../assets/images/bg4.jpg");
+  height: 60vh;
+  background-size: cover;
+}
