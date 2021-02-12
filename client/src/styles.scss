@@ -8,3 +8,15 @@ background-color: #0C1014;
   font-family: 'KontoraBlack';
   src: url('assets/fonts/KontoraBlack.otf') format('opentype');
 }
+.xng-breadcrumb-root {
+  padding: 8px;
+  display: inline;
+  border-radius: 0;
+}
+label.xng-breadcrumb-trail{
+  margin-bottom: 0;
+  color: #2563EB;
+}
+.xng-breadcrumb-seperator {
+  padding: 0 0;
+}
