@@ -24,3 +24,6 @@ a {
     outline: none;
   }
 }
+#sortbox:checked ~ #sortboxmenu {
+  opacity: 1;
+}

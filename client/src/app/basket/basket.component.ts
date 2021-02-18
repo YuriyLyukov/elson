@@ -13,6 +13,7 @@ export class BasketComponent implements OnInit {
   constructor(private basketService: BasketService) { }
 
   ngOnInit(): void {
+    this.basketService.basket$
     this.basket$ = this.basketService.basket$;
   }
 

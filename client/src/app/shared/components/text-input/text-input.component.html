@@ -1,0 +1,37 @@
+<div class="mt-4">
+  <div *ngIf="controlDir && controlDir.control && controlDir.control.status === 'PENDING'" class="fa fa-spinner fa-spin fa-2x loader"></div>
+  <label for="{{label}}" class="block text-sm font-medium leading-relaxed tracking-tighter text-gray-700">{{label}}</label>
+  <input
+         [ngClass]="(controlDir && controlDir.control && controlDir.control.touched) ?
+         !controlDir.control.valid ? 'border-2 border-red-600 box-shadow-invalid': 'border-2 border-green-600 box-shadow-valid' : null"
+         [type]="type"
+         (input)="onChange($event.target.value)"
+         (blur)="onTouched()"
+         id="{{label}}"
+         #input
+         placeholder="{{label}}"
+         class="w-full px-4 py-2 text-base text-black transition duration-500 ease-in-out transform bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 "
+  >
+  <div *ngIf="(controlDir && controlDir.control && !controlDir.control.valid && controlDir.control.touched)">
+    <div *ngIf="controlDir.control.errors?.required" class="p-2">
+      <div class="inline-flex items-center bg-white leading-none text-red-600 rounded-full p-2 shadow text-teal text-sm">
+        <span class="inline-flex bg-red-600 text-white rounded-full h-6 px-3 justify-center items-center">Warning</span>
+        <span class="inline-flex px-2">{{label}} is Required</span>
+      </div>
+    </div>
+    <div *ngIf="controlDir.control.errors?.pattern" class="p-2">
+      <div class="inline-flex items-center bg-white leading-none text-red-600 rounded-full p-2 shadow text-teal text-sm">
+        <span class="inline-flex bg-red-600 text-white rounded-full h-6 px-3 justify-center items-center">Warning</span>
+        <span class="inline-flex px-2">{{label}} is Invalid</span>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="(controlDir && controlDir.control && !controlDir.control.valid && controlDir.control.dirty)">
+    <div *ngIf="controlDir.control.errors?.emailExists" class="p-2">
+      <div class="inline-flex items-center bg-white leading-none text-red-600 rounded-full p-2 shadow text-teal text-sm">
+        <span class="inline-flex bg-red-600 text-white rounded-full h-6 px-3 justify-center items-center">Warning</span>
+        <span class="inline-flex px-2">Email address is in use</span>
+      </div>
+    </div>
+  </div>
+</div>
