@@ -1,5 +1,11 @@
-﻿/API/appsettings.json
+﻿.idea
+/API/appsettings.json
 *.db
 /API/elson.db
 API/elson.db
-
+API/bin
+API/obj
+Core/bin
+Core/obj
+Infrastructure/bin
+Infrastructure/obj
